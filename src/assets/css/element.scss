@@ -1,0 +1,182 @@
+.el-scrollbar__wrap {
+  overflow-x: hidden !important;
+  max-height: 100%; /*防止页面切换时，滚动条高度不变的问题（滚动条高度非滚动条滚动高度）*/
+}
+.el-menu {
+  border-right: none !important;
+}
+.el-menu-item,
+.el-submenu__title {
+  transition: border-color 0s, background-color 0s, color 0s !important;
+}
+.el-icon-arrow-down {
+  font-size: 12px;
+}
+.submenu-theme-dark {
+  .el-submenu .el-menu-item,
+  .child-menu .el-submenu .el-submenu__title {
+    background-color: #1a2636 !important;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+  }
+}
+.el-menu-vertical {
+  width: 210px;
+}
+.el-menu--collapse .el-menu-item span {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: inline-block;
+}
+.el-menu--collapse .el-submenu__title span {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: inline-block;
+}
+.el-menu--collapse .el-submenu__icon-arrow {
+  display: none;
+}
+
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.el-menu--horizontal .el-submenu__title:hover,
+.el-submenu__title:focus {
+  background-color: transparent !important;
+}
+.el-menu--horizontal {
+  border-bottom: none !important;
+}
+.el-menu--horizontal .is-active .el-submenu__title i {
+  color: #09f;
+}
+.el-menu--horizontal .el-menu-item,
+.el-menu--horizontal .el-submenu,
+.el-menu--horizontal .el-submenu .el-submenu__title {
+  height: 49px !important;
+  line-height: 49px !important;
+}
+.el-menu--horizontal .el-menu--popup .el-menu-item,
+.el-menu--horizontal .el-menu--popup .el-submenu,
+.el-menu--horizontal .el-menu--popup .el-submenu .el-submenu__title {
+  height: 36px !important;
+  line-height: 36px !important;
+}
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+  border-radius: 0 !important;
+}
+.el-pager li {
+  font-weight: normal !important;
+}
+.el-pager li.active:hover {
+  color: #fff !important;
+}
+.el-pager li:hover,
+.el-pagination button:hover {
+  color: #09f !important;
+}
+.el-pagination button:disabled:hover {
+  color: #c0c4cc !important;
+}
+.el-pagination__sizes .el-input .el-input__inner:hover {
+  border-color: #c0c4cc !important;
+}
+.el-breadcrumb__inner a,
+.el-breadcrumb__separator {
+  font-weight: normal !important;
+}
+.el-breadcrumb__inner .no-redirect {
+  color: #97a8be !important;
+}
+.el-card__header {
+  padding: 12px 15px !important;
+}
+.el-card__body {
+  padding: 0 !important;
+}
+.el-card {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.03) !important;
+}
+.el-dialog__wrapper {
+  display: flex;
+  align-items: center;
+}
+.el-dialog {
+  margin: 0 auto !important;
+}
+.el-drawer__header {
+  margin-bottom: 0 !important;
+  padding: 14px 15px !important;
+  border-bottom: 1px solid #ebeef5;
+  color: #333333 !important;
+}
+.el-drawer__body {
+  padding: 12px 15px;
+  overflow-y: auto;
+}
+.el-form--label-top .el-form-item__label {
+  padding: 0 !important;
+}
+.el-form--label-top .el-form-item {
+  margin-bottom: 5px !important;
+}
+.el-select-dropdown .el-scrollbar__wrap {
+  overflow-x: scroll !important;
+}
+.el-dropdown-menu__item {
+  font-size: 13px !important;
+}
+.el-divider {
+  background-color: rgba(0, 0, 0, 0.06) !important;
+}
+.el-message {
+  min-width: auto !important;
+  box-sizing: border-box !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: #ebeef5 !important;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff !important;
+  border-radius: 3px !important;
+  border: 1px solid #ebeef5 !important;
+  .el-message__icon {
+    font-size: 1.4em !important;
+  }
+}
+.el-alert--warning.is-light {
+  border: 1px solid rgba(230, 162, 60, 0.3) !important;
+}
+.el-alert--success.is-light {
+  border: 1px solid rgba(103, 194, 58, 0.3) !important;
+}
+.el-alert--info.is-light {
+  border: 1px solid rgba(144, 147, 153, 0.3) !important;
+}
+.el-alert--error.is-light {
+  border: 1px solid rgba(245, 108, 108, 0.3) !important;
+}
+.el-table-column--selection {
+  .el-checkbox {
+    margin-right: unset !important;
+  }
+}
+.el-table::before,
+.el-table--group::after,
+.el-table--border::after {
+  z-index: 99 !important;
+}
+.el-menu-item .iconfont,
+.el-submenu__title .iconfont {
+  margin-right: 5px;
+  width: 24px;
+  text-align: center;
+  font-size: 18px;
+  vertical-align: middle;
+  display: inline-block;
+}

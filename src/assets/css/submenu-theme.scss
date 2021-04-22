@@ -1,0 +1,55 @@
+.submenu-theme-dark,
+.submenu-theme-light {
+  width: auto;
+  height: 100%;
+  background-color: #29384d;
+}
+.submenu-theme-light {
+  background-color: white;
+}
+
+/* fashion
+------------------------------*/
+.fashion-warp-logo-dark {
+  background-color: #29384d;
+  border-bottom: 1px solid #394655;
+}
+.fashion-warp-logo-light {
+  background-color: white;
+  border-bottom: 1px solid white;
+}
+
+/* elegant / classic
+------------------------------*/
+.elegant-top-dark,
+.classic-top-dark {
+  background-color: #29384d !important;
+  .navbar {
+    background-color: transparent !important;
+    .navbar-right {
+      .icon {
+        color: #e6e6e6 !important;
+        &:hover {
+          background: rgba(0, 0, 0, 0.1) !important;
+        }
+      }
+      .el-dropdown {
+        color: #e6e6e6 !important;
+      }
+    }
+  }
+}
+.classic-top-dark {
+  .navbar {
+    border-bottom: none !important;
+    .navbar-left {
+      .logo {
+        border-bottom: 1px solid #394655 !important;
+      }
+    }
+  }
+}
+.elegant-top-light,
+.classic-top-light {
+  background-color: #ffffff;
+}

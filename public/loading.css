@@ -1,0 +1,1 @@
+.index-loading{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);font-size:22px;color:#cbc9cb;}.index-loading span{animation:text cubic-bezier(0.75,0,0.5,1) 1.5s infinite;}@keyframes text{0%{color:#898789;}20%{color:#cbc9cb;}100%{color:#cbc9cb;}}
